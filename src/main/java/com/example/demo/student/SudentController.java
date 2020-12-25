@@ -15,7 +15,8 @@ public class SudentController {
     private static final List<Student> studentList= Arrays.asList(
             new Student(1,"James Bond"),
             new Student(2,"Marry Jones"),
-            new Student(3, "Anna Smith")
+            new Student(3, "Anna Smith"),
+            new Student(4, "Sunil Kumar")
         );
 
     @GetMapping(path = "{studentId}")
